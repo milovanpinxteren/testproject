@@ -4,7 +4,7 @@
   <HelloWorld :msg="greeting"/>
   <NumberCounter/>
   <InputModel/>
-  <DataFetcher/>
+<!--  <DataFetcher/>-->
 </template>
 
 <script>
@@ -12,14 +12,14 @@
 import NumberCounter from "@/components/NumberCounter";
 import HelloWorld from "@/components/HelloWorld";
 import InputModel from "@/components/InputModel";
-import DataFetcher from "@/components/DataFetcher";
+// import DataFetcher from "@/components/DataFetcher";
 
 export default {
   components: {
     NumberCounter,
     HelloWorld,
     InputModel,
-    DataFetcher,
+    // DataFetcher,
   },
 }
 </script>
